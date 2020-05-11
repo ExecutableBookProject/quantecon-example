@@ -1,0 +1,41 @@
+.\build_book.ps1
+Running Sphinx v2.4.4
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 18 source files that are out of date
+updating environment: Executing: C:\Users\Phil\repos\quantecon-example\book\docs\pandas.md
+[new config] 18 added, 18 changed, 0 removed
+checking for C:\Users\Phil\repos\quantecon-example\book\docs\quant-econ.bib in bibtex cache... not found
+parsing bibtex file C:\Users\Phil\repos\quantecon-example\book\docs\quant-econ.bib... parsed 1 entries
+reading sources... [100%] docs/writing_good_code
+WARNING: Execution Failed: C:\Users\Phil\repos\quantecon-example\book\docs\pandas.md
+WARNING: Couldn't find cache key for notebook file book\docs\pandas.md. Outputs will not be inserted.
+  Last execution failed with traceback saved in C:\Users\Phil\repos\quantecon-example\book\_build\html/reports/pandas.log
+
+Sphinx error:
+master file C:\Users\Phil\repos\quantecon-example\book\docs\index.md not found
+Traceback (most recent call last):
+  File "c:\users\phil\miniwin\envs\ebp\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\phil\miniwin\envs\ebp\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\phil\miniwin\envs\ebp\Scripts\jb.exe\__main__.py", line 7, in <module>
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\click\core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\click\core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\click\core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\click\core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\jupyter_book\commands\__init__.py", line 126, in build
+    "There was an error in building your book. "
+  File "c:\users\phil\miniwin\envs\ebp\lib\site-packages\jupyter_book\utils.py", line 65, in _error
+    raise kind(box)
+ValueError:
+===============================================================================
+
+There was an error in building your book. Look above for the error message.
+
+===============================================================================
