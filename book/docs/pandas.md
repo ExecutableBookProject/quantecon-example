@@ -578,7 +578,7 @@ start and end dates accordingly.
 ```{code-cell} ipython3
 indices_data = read_data(
         indices_list,
-        start=dt.datetime(1928, 1, 2),
+        start=dt.datetime(1978, 1, 2),
         end=dt.datetime(2020, 12, 31)
 )
 ```
