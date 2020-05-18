@@ -1,0 +1,37 @@
+file: index
+title: Docs
+sections:
+- file: about_py
+  title: About Py
+- file: debugging
+  title: Debugging
+- file: functions
+  title: Functions
+- file: getting_started
+  title: Getting Started
+- file: matplotlib
+  title: Matplotlib
+- file: need_for_speed
+  title: Need For Speed
+- file: numba
+  title: Numba
+- file: numpy
+  title: Numpy
+- file: oop_intro
+  title: Oop Intro
+- file: pandas
+  title: Pandas
+- file: parallelization
+  title: Parallelization
+- file: python_advanced_features
+  title: Python Advanced Features
+- file: python_by_example
+  title: Python By Example
+- file: python_essentials
+  title: Python Essentials
+- file: python_oop
+  title: Python Oop
+- file: scipy
+  title: Scipy
+- file: writing_good_code
+  title: Writing Good Code
