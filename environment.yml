@@ -17,5 +17,5 @@ dependencies:
   - numba
   - pip
   - pip:
-    - git+https://github.com/ExecutableBookProject/jupyter-book
+    - jupyter-book
 
