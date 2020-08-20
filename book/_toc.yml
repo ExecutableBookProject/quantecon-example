@@ -1,7 +1,7 @@
 - file: docs/index
 
-- chapter: Introduction to Python
-  sections:
+- part: Introduction to Python
+  chapters:
   - file: docs/about_py
   - file: docs/getting_started
   - file: docs/python_by_example
@@ -10,8 +10,8 @@
   - file: docs/oop_intro
   - file: docs/python_oop
 
-- chapter: Scientific Libraries
-  sections:
+- part: Scientific Libraries
+  chapters:
   - file: docs/need_for_speed
   - file: docs/numpy
   - file: docs/matplotlib
@@ -20,8 +20,8 @@
   - file: docs/parallelization
   - file: docs/pandas
 
-- chapter: Advanced Python
-  sections:
+- part: Advanced Python
+  chapters:
   - file: docs/writing_good_code
   - file: docs/python_advanced_features
   - file: docs/debugging
