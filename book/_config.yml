@@ -19,6 +19,10 @@ html:
   use_repository_button       : true
   use_issue_button            : true
 
+latex:
+  latex_engine                : 'xelatex'
+  latex_documents:
+    targetname                : book.tex
 
 repository:
   url                         : https://github.com/executablebooks/quantecon-example/
